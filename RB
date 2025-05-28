@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8" />
+<title>Speech App</title>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+  }
+  #speechText {
+    font-size: 18px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    min-width: 200px;
+    text-align: center;
+  }
+  #micButton {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div id="speechText">Your Speech Will Appear Here</div>
+  <button id="micButton"> Speak Now🎤 </button>
+</body>
+</html>
+https://github.com/Rayeb-rb/Voice-to-Text-/new/main
